@@ -1,9 +1,9 @@
-# Read user input
-num1 = input("Enter first number: ")
-num2 = input("Enter second number: ")
+num1 = 10
+num2 = 20
 
-# Convert to float to handle decimals, then add
-result = float(num1) + float(num2)
+print("First number:", num1)
+print("Second number:", num2)
 
-# Print the output
-print(f"The sum is: {result}")
+result = num1 + num2
+
+print("Addition:", result)
